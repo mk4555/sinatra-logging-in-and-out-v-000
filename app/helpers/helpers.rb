@@ -2,6 +2,6 @@ class Helpers
   def current_user
   end
 
-  def logged_in?
+  def is_logged_in?
   end
 end
