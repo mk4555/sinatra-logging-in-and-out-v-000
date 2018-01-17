@@ -7,7 +7,7 @@
   </head>
   <body id="page-top">
     Welcome <%=Helpers.current_user(session).username%>
-    Your balance: <%=@user.balance%>
+    Your balance: <%=Helpers.current_user(session).balance%>
 
   </body>
 </html>
